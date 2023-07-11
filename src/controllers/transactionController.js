@@ -1,6 +1,6 @@
 import Joi from 'joi'
 import dayjs from 'dayjs'
-import { db } from '../db/database.mjs'
+import { db } from '../db/database.js'
 
 export const addTransaction = async (req, res) => {
    const { value, description } = req.body

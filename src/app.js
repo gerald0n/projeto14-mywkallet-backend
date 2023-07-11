@@ -1,9 +1,9 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import userRouter from './routes/userRoutes.mjs'
-import transactionRouter from './routes/transactionRoutes.mjs'
-import authRouter from './routes/authRoutes.mjs'
+import userRouter from './routes/userRoutes.js'
+import transactionRouter from './routes/transactionRoutes.js'
+import authRouter from './routes/authRoutes.js'
 
 dotenv.config()
 
